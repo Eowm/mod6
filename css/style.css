@@ -14,7 +14,7 @@ body {
 
 .jumbotron {
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -55,6 +55,7 @@ body {
 
 .hello {
 	margin: 0 auto;
+	text-align: center;
 }
 
 .hello h3 {
@@ -79,14 +80,89 @@ body {
 	border-radius: 3px;
 	background-color:  #fed136;
 	border: none;
-	width: 17.1%;
-	height: 1.1%;
+	width: 240px;
+	height: 65px;
 	font-family: Montserrat;
 	color:  #ffffff;
 	font-size: 18px;/* Przybliżenie (wynika z podstawienia czcionki) */
 	font-weight: 700;
 	text-align: center;
-	padding: 2vh 0;
+	display: inline-block;
 	margin: 0 auto;
+	align-items: center;
+}
+
+.services {
+	width: 100vw;
+	text-align: center;
+	padding-bottom: 10vh;
+}
+
+.services h1 {
+	font-family: Montserrat;
+	color:  #222222;
+	font-size: 2.5em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-weight: 700;
+	line-height: 1.875;/* Przybliżenie (wynika z podstawienia czcionki) */
+	text-align: center;
+}
+
+.services p {
+	font-family: DroidSerif;
+	color:  #777777;
+	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-style: italic;
+	text-align: center;
+}
+
+.third {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.e-commerce {
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color:  #fed136;
+	background-color:  #ffffff;
+	width: 68px;
+	height: 67px;
+	margin: 4vh auto 0;
+}
+
+
+.fa {
+	color: #fed136;
+	font-size: 40px;
+}
+
+.services .paragraph h6 {
+	font-family: Montserrat;
+	color:  #222222;
+	font-size: 1.125em;
+	font-weight: 700;
+	line-height: 4.167;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.services .paragraph p {
+	font-family: RobotoSlab;
+	color:  #777777;
+	font-size: 0.875em;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
 }
 
