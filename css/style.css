@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	background-image: url(https://images.pexels.com/photos/802959/pexels-photo-802959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-image: url(C:\Users\Adamn\Desktop\kodilla\zadania\Dodatkowe\mod7\graphic\header.png);
 }
 
 .jumbotron li {
@@ -98,7 +98,7 @@ body {
 	padding-bottom: 10vh;
 }
 
-.services h1 {
+.services h1, .portfolio h1 {
 	font-family: Montserrat;
 	color:  #222222;
 	font-size: 2.5em;/* Przybliżenie (wynika z podstawienia czcionki) */
@@ -107,7 +107,7 @@ body {
 	text-align: center;
 }
 
-.services p {
+.services p, .portfolio p {
 	font-family: DroidSerif;
 	color:  #777777;
 	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
@@ -166,3 +166,6 @@ body {
 	padding: 0;
 }
 
+.portfolio {
+	background-color:  #f7f7f7;
+}
