@@ -167,11 +167,37 @@ body {
 }
 
 .portfolio {
+	padding-top: 5vh;
+	padding-bottom: 10vh;
 	background-color:  #f7f7f7;
 }
 
 .project-one {
-	
+	background-color:  #ffffff;
+	width: 291px;
+	height: 394px;
 }
 
+.project h6 {
+	padding-top:15px;
+	font-family: Montserrat;
+	color:  #333333;
+	font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-weight: 700;
+	text-align: center;
+}
 
+.project p {
+	font-family: DroidSerif;
+	color:  #737373;
+	font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-style: italic;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: space-around;
+}
