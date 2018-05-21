@@ -220,8 +220,7 @@ text-align: right;
 
 .about-pic-one {
 	width: 190px;
-	height: 190px;
-	 margin: 0 auto;
+	height: 190px;	
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -247,7 +246,6 @@ text-align: left;
 .about-pic-two {
 	width: 190px;
 	height: 190px;
-	 margin: 0 auto;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -256,7 +254,6 @@ text-align: left;
 .about-pic-three {
 	width: 190px;
 	height: 190px;
-	 margin: 0 auto;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -265,7 +262,6 @@ text-align: left;
 .about-pic-four {
 	width: 190px;
 	height: 190px;
-	 margin: 0 auto;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -274,7 +270,6 @@ text-align: left;
 .about-pic-five {
 	width: 190px;
 	height: 190px;
-	 margin: 0 auto;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -283,5 +278,24 @@ text-align: left;
 
 .about .line {
 	border-right: 3px solid #f1f1f1;
-	height:100px;
+	height: 94px;
+}
+
+.about h3 {
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
+font-weight: 700;
+text-align: center;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+
+position: absolute;
+top:15%;
+left: 25%;
+line-height:1.5em;
+}
+
+.about {
+	padding-top: 5vh;
+	padding-bottom: 10vh;
 }
