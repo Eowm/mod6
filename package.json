@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "https://eowm.github.io/learning-git-2/",
+  "description": "https://eowm.github.io/mod7/",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.4",
@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eowm/learning-git-2.git"
+    "url": "git+https://github.com/Eowm/mod7.git"
   },
   "bugs": {
-    "url": "https://github.com/Eowm/learning-git-2/issues"
+    "url": "https://github.com/Eowm/mod7/issues"
   },
-  "homepage": "https://github.com/Eowm/learning-git-2#readme",
+  "homepage": "https://github.com/Eowm/mod7#readme",
   "dependencies": {}
 }
