@@ -14,7 +14,6 @@ body {
 
 .jumbotron {
 	display: flex;
-	width: 100vw;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -76,7 +75,7 @@ body {
 	padding: 5vh 0;
 }
 
-.hello button {
+button {
 	border-radius: 3px;
 	background-color:  #fed136;
 	border: none;
@@ -98,21 +97,25 @@ body {
 	padding-bottom: 10vh;
 }
 
-.services h1, .portfolio h1, .about h1{
+.services h1, .portfolio h1, .about h1, .team h1{
 	font-family: Montserrat;
 	color:  #222222;
 	font-size: 2.5em;/* Przybliżenie (wynika z podstawienia czcionki) */
 	font-weight: 700;
 	line-height: 1.875;/* Przybliżenie (wynika z podstawienia czcionki) */
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
-.services p, .portfolio p, .about p {
+.services p, .portfolio p, .about p, .team p {
 	font-family: DroidSerif;
 	color:  #777777;
 	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
 	font-style: italic;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 .third {
@@ -126,7 +129,7 @@ body {
 	text-align: center;
 }
 
-.box {
+.third .box {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -141,7 +144,7 @@ body {
 }
 
 
-.fa {
+.third .fa {
 	color: #fed136;
 	font-size: 40px;
 }
@@ -298,4 +301,236 @@ line-height:1.5em;
 .about {
 	padding-top: 5vh;
 	padding-bottom: 10vh;
+}
+
+.team {
+	padding: 10vh 0;
+	background-color:  #f9f9f9;
+}
+
+.team .row {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.team .team-pic-one {
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/team-pic-one.jpeg')
+}
+
+.team .team-pic-two {
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/team-pic-two.jpeg')
+}
+
+.team .team-pic-three {
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/team-pic-three.jpeg')
+}
+
+.team h5 {
+	font-family: Montserrat;
+	color:  #222222;
+	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-weight: 700;
+	text-align: center;
+}
+
+.team p {
+	font-family: RobotoSlab;
+	color:  #777777;
+	font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
+	font-weight: 400;
+	text-align: center;
+}
+
+.team .box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 3px solid #222222;
+	box-sizing: border-box;
+	background-color:  #f9f9f9;
+	width: 41px;
+	height: 41px;
+	margin-top:0;
+}
+
+.team .social {
+	padding-top: 1vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.team i {
+	font-size: 20px;
+	color: black;
+}
+
+.team .box:hover {
+	background-color: #222222;
+	cursor: pointer;
+}
+
+.team .box:hover i{
+	color: white;
+}
+
+
+.team .small-padding {
+	padding-bottom: 3vh;
+}
+
+.team .small-padding-up {
+	padding-top: 3vh;
+}
+
+.links {
+display: flex;
+justify-content: space-around;
+padding: 10vh 0;
+}
+
+.envato {
+	width: 161px;
+	height: 30px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/envato.png')
+}
+
+.wordpress {
+	width: 186px;
+	height: 42px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/WordPress.png')
+}
+
+.tuts {
+	width: 131px;
+	height: 41px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/Tuts+.png')
+}
+
+.microlancer {
+	width: 167px;
+	height: 42px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url('../graphic/Microlancer.png')
+}
+
+.contact {
+display: flex;
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../graphic/contact.png');
+	position: relative;
+	text-align: center;
+}
+
+.world {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 614px;
+	height: 646px;
+}
+
+.contact h1 {
+	font-family: Montserrat;
+color:  #ffffff;
+font-size: 40px;/* Przybliżenie (wynika z podstawienia czcionki) */
+font-weight: 700;
+text-align: center;
+padding: 10vh 0 1vh;
+}
+
+.contact p {
+	font-family: DroidSerif;
+color:  #777777;
+font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
+font-style: italic;
+text-align: center;
+padding: 0 0 10vh 0;
+}
+
+.form-control {
+	margin-bottom: 2vh;
+}
+
+.footer {
+	margin: 3vh auto;
+}
+
+.footer p {
+	font-family: Montserrat;
+color:  #555555;
+font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+font-weight: 400;
+line-height: 22px;/* Przybliżenie (wynika z podstawienia czcionki) */
+text-align: left;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 3px solid #222222;
+	box-sizing: border-box;
+	background-color: #222222;;
+	width: 41px;
+	height: 41px;
+	margin: 0 1vw;
+}
+
+.footer .end {
+	font-size: 20px;
+	color: white;
+}
+
+.footer .middle {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.circle:hover{
+	border: 3px solid #FED136;
+	background-color: #FED136;
+	cursor: pointer;
+}
+
+.circle:hover i{
+	color: #222222;
 }
