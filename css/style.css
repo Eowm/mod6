@@ -1,536 +1,795 @@
-*{
-	box-sizing: border-box;
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
 }
 
-body {
-	margin: 0 auto;
-	padding: 0;
+* body {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .jumbotron {
-	display: flex;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	background-image: url('../graphic/header.png');
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../graphic/header.png");
 }
 
 .jumbotron li {
-    position: relative; 
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .jumbotron a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
-	font-family: Mr Dafoe;
-	color:  #fed136;
-	font-size: 26px;
-	line-height: 41px;
-	text-align: left;
+  font-family: Mr Dafoe;
+  color: #fed136;
+  font-size: 26px;
+  line-height: 41px;
+  text-align: left;
 }
 
 .menu {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-    font-family: Montserrat;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 41px;
-	text-align: center;
-	text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hello {
-	margin: 0 auto;
-	text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hello h3 {
-	padding-top: 40vh;
-	font-family: DroidSerif;
-	color:  #ffffff;
-	font-size: 40px;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-style: italic;
-	text-align: center;
+  padding-top: 20vh;
+  font-family: DroidSerif;
+  color: #ffffff;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
 }
 
 .hello h1 {
-	font-family: Montserrat;
-	color:  #ffffff;
-	font-size: 75px;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 700;
-	text-align: center;
-	padding: 5vh 0;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 75px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
+  padding: 5vh 0;
 }
 
 button {
-	border-radius: 3px;
-	background-color:  #fed136;
-	border: none;
-	width: 240px;
-	height: 65px;
-	font-family: Montserrat;
-	color:  #ffffff;
-	font-size: 18px;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 700;
-	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
-	align-items: center;
+  border-radius: 3px;
+  background-color: #fed136;
+  border: none;
+  width: 240px;
+  height: 65px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 18px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .services {
-	width: 100vw;
-	text-align: center;
-	padding-bottom: 10vh;
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 10vh;
 }
 
-.services h1, .portfolio h1, .about h1, .team h1{
-	font-family: Montserrat;
-	color:  #222222;
-	font-size: 2.5em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 700;
-	line-height: 1.875;/* Przybliżenie (wynika z podstawienia czcionki) */
-	text-align: center;
-	padding: 0;
-	margin: 0;
+.services h1, .portfolio h1, .about h1, .team h1 {
+  font-family: Montserrat;
+  color: #222222;
+  font-size: 2.5em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  line-height: 1.875;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .services p, .portfolio p, .about p, .team p {
-	font-family: DroidSerif;
-	color:  #777777;
-	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-style: italic;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+  font-family: DroidSerif;
+  color: #777777;
+  font-size: 1em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-style: italic;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .third {
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .e-commerce {
-	text-align: center;
+  text-align: center;
 }
 
 .third .box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 3px;
-	border-color:  #fed136;
-	background-color:  #ffffff;
-	width: 68px;
-	height: 67px;
-	margin: 4vh auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fed136;
+  background-color: #ffffff;
+  width: 68px;
+  height: 67px;
+  margin: 4vh auto 0;
 }
 
-
 .third .fa {
-	color: #fed136;
-	font-size: 40px;
+  color: #fed136;
+  font-size: 40px;
 }
 
 .services .paragraph h6 {
-	font-family: Montserrat;
-	color:  #222222;
-	font-size: 1.125em;
-	font-weight: 700;
-	line-height: 4.167;
-	margin: 0 auto;
-	padding: 0;
+  font-family: Montserrat;
+  color: #222222;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 4.167;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .services .paragraph p {
-	font-family: RobotoSlab;
-	color:  #777777;
-	font-size: 0.875em;
-	font-weight: 400;
-	text-align: center;
-	margin: 0 auto;
-	padding: 0;
+  font-family: RobotoSlab;
+  color: #777777;
+  font-size: 0.875em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .portfolio {
-	padding-top: 5vh;
-	padding-bottom: 10vh;
-	background-color:  #f7f7f7;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  background-color: #f7f7f7;
 }
 
 .project-one {
-	background-color:  #ffffff;
-	width: 291px;
-	height: 394px;
+  background-color: #ffffff;
+  width: 291px;
+  height: 394px;
 }
 
 .project h6 {
-	padding-top:15px;
-	font-family: Montserrat;
-	color:  #333333;
-	font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 700;
-	text-align: center;
+  padding-top: 15px;
+  font-family: Montserrat;
+  color: #333333;
+  font-size: 1.125em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
 }
 
 .project p {
-	font-family: DroidSerif;
-	color:  #737373;
-	font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-style: italic;
-	text-align: center;
+  font-family: DroidSerif;
+  color: #737373;
+  font-size: 0.875em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-style: italic;
+  text-align: center;
 }
 
 .flex {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: space-between;
-	justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: space-around;
 }
 
 .about h6 {
-	font-family: Montserrat;
-color:  #222222;
-font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 700;
-text-align: right
+  font-family: Montserrat;
+  color: #222222;
+  font-size: 1.125em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: right;
 }
 
 .about .two-thirds p {
-	font-family: RobotoSlab;
-color:  #777777;
-font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 400;
-text-align: right;
+  font-family: RobotoSlab;
+  color: #777777;
+  font-size: 0.875em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 400;
+  text-align: right;
 }
 
 .about-pic-one {
-	width: 190px;
-	height: 190px;	
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/about-pic-one.png')
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/about-pic-one.png");
 }
 
-
 .about .left h6 {
-	font-family: Montserrat;
-color:  #222222;
-font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 700;
-text-align: left;
+  font-family: Montserrat;
+  color: #222222;
+  font-size: 1.125em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: left;
 }
 
 .about .two-thirds .left p {
-	font-family: RobotoSlab;
-color:  #777777;
-font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 400;
-text-align: left;
+  font-family: RobotoSlab;
+  color: #777777;
+  font-size: 0.875em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 400;
+  text-align: left;
 }
+
 .about-pic-two {
-	width: 190px;
-	height: 190px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/about-pic-two.png')
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/about-pic-two.png");
 }
+
 .about-pic-three {
-	width: 190px;
-	height: 190px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/about-pic-three.png')
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/about-pic-three.png");
 }
+
 .about-pic-four {
-	width: 190px;
-	height: 190px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/about-pic-four.png')
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/about-pic-four.png");
 }
+
 .about-pic-five {
-	width: 190px;
-	height: 190px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/about-pic-five.png')
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/about-pic-five.png");
 }
 
 .about .line {
-	border-right: 3px solid #f1f1f1;
-	height: 94px;
+  border-right: 3px solid #f1f1f1;
+  height: 94px;
 }
 
 .about h3 {
-font-family: Montserrat;
-color:  #ffffff;
-font-size: 1.125em;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 700;
-text-align: center;
-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
-
-position: absolute;
-top:15%;
-left: 25%;
-line-height:1.5em;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 1.125em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  line-height: 1.5em;
 }
 
 .about {
-	padding-top: 5vh;
-	padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 
 .team {
-	padding: 10vh 0;
-	background-color:  #f9f9f9;
+  padding: 10vh 0;
+  background-color: #f9f9f9;
 }
 
 .team .row {
-	display: flex;
-	flex-wrap: wrap;	
-	justify-content: space-around;
-	flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .team .team-pic-one {
-	border-radius: 50%;
-	width: 220px;
-	height: 220px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/team-pic-one.jpeg')
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/team-pic-one.jpeg");
 }
 
 .team .team-pic-two {
-	border-radius: 50%;
-	width: 220px;
-	height: 220px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/team-pic-two.jpeg')
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/team-pic-two.jpeg");
 }
 
 .team .team-pic-three {
-	border-radius: 50%;
-	width: 220px;
-	height: 220px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/team-pic-three.jpeg')
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/team-pic-three.jpeg");
 }
 
 .team h5 {
-	font-family: Montserrat;
-	color:  #222222;
-	font-size: 1em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 700;
-	text-align: center;
+  font-family: Montserrat;
+  color: #222222;
+  font-size: 1em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
 }
 
 .team p {
-	font-family: RobotoSlab;
-	color:  #777777;
-	font-size: 0.875em;/* Przybliżenie (wynika z podstawienia czcionki) */
-	font-weight: 400;
-	text-align: center;
+  font-family: RobotoSlab;
+  color: #777777;
+  font-size: 0.875em;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 400;
+  text-align: center;
 }
 
 .team .box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	border: 3px solid #222222;
-	box-sizing: border-box;
-	background-color:  #f9f9f9;
-	width: 41px;
-	height: 41px;
-	margin-top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #222222;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  width: 41px;
+  height: 41px;
+  margin-top: 0;
 }
 
 .team .social {
-	padding-top: 1vh;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
-	flex-wrap: wrap;
+  padding-top: 1vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .team i {
-	font-size: 20px;
-	color: black;
+  font-size: 20px;
+  color: black;
 }
 
 .team .box:hover {
-	background-color: #222222;
-	cursor: pointer;
+  background-color: #222222;
+  cursor: pointer;
 }
 
-.team .box:hover i{
-	color: white;
+.team .box:hover i {
+  color: white;
 }
-
 
 .team .small-padding {
-	padding-bottom: 3vh;
+  padding-bottom: 3vh;
 }
 
 .team .small-padding-up {
-	padding-top: 3vh;
+  padding-top: 3vh;
 }
 
 .links {
-display: flex;
-justify-content: space-around;
-padding: 10vh 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10vh 0;
 }
 
 .envato {
-	width: 161px;
-	height: 30px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/envato.png')
+  width: 161px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/envato.png");
 }
 
 .wordpress {
-	width: 186px;
-	height: 42px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/WordPress.png')
+  width: 186px;
+  height: 42px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/WordPress.png");
 }
 
 .tuts {
-	width: 131px;
-	height: 41px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/Tuts+.png')
+  width: 131px;
+  height: 41px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/Tuts+.png");
 }
 
 .microlancer {
-	width: 167px;
-	height: 42px;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	background-image: url('../graphic/Microlancer.png')
+  width: 167px;
+  height: 42px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url("../graphic/Microlancer.png");
 }
 
 .contact {
-display: flex;
-	height: 85vh;
-	background-size: cover;
-	background-position: center;
-	background-image: url('../graphic/contact.png');
-	position: relative;
-	text-align: center;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../graphic/contact.png");
+  position: relative;
+  text-align: center;
+}
+
+.contact button {
+  margin-bottom: 5vh;
 }
 
 .world {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 614px;
-	height: 646px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 614px;
+  height: 646px;
 }
 
 .contact h1 {
-	font-family: Montserrat;
-color:  #ffffff;
-font-size: 40px;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 700;
-text-align: center;
-padding: 10vh 0 1vh;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 40px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-align: center;
+  padding: 10vh 0 1vh;
 }
 
 .contact p {
-	font-family: DroidSerif;
-color:  #777777;
-font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-style: italic;
-text-align: center;
-padding: 0 0 10vh 0;
+  font-family: DroidSerif;
+  color: #777777;
+  font-size: 16px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-style: italic;
+  text-align: center;
+  padding: 0 0 10vh 0;
 }
 
 .form-control {
-	margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .footer {
-	margin: 3vh auto;
+  margin: 3vh auto;
 }
 
 .footer p {
-	font-family: Montserrat;
-color:  #555555;
-font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
-font-weight: 400;
-line-height: 22px;/* Przybliżenie (wynika z podstawienia czcionki) */
-text-align: left;
+  font-family: Montserrat;
+  color: #555555;
+  font-size: 14px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 400;
+  line-height: 22px;
+  /* Przybliżenie (wynika z podstawienia czcionki) */
+  text-align: left;
 }
 
 .circle {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	border: 3px solid #222222;
-	box-sizing: border-box;
-	background-color: #222222;;
-	width: 41px;
-	height: 41px;
-	margin: 0 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #222222;
+  box-sizing: border-box;
+  background-color: #222222;
+  width: 41px;
+  height: 41px;
+  margin: 0 1vw;
 }
 
 .footer .end {
-	font-size: 20px;
-	color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .footer .middle {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.circle:hover{
-	border: 3px solid #FED136;
-	background-color: #FED136;
-	cursor: pointer;
+.circle:hover {
+  border: 3px solid #FED136;
+  background-color: #FED136;
+  cursor: pointer;
 }
 
-.circle:hover i{
-	color: #222222;
+.circle:hover i {
+  color: #222222;
 }
+
+@media only screen and (max-width: 1024px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .hello {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hello h3 {
+    padding-top: 10vh;
+    font-family: DroidSerif;
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+  }
+  .hello h1 {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 60px;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    text-align: center;
+    padding: 5vh 0;
+  }
+  .about h6 {
+    font-family: Montserrat;
+    color: #222222;
+    font-size: 1.125em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    text-align: right;
+  }
+  .about .two-thirds p {
+    font-family: RobotoSlab;
+    color: #777777;
+    font-size: 0.875em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 400;
+    text-align: right;
+  }
+  .about-pic-one {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/about-pic-one.png");
+  }
+  .about .left h6 {
+    font-family: Montserrat;
+    color: #222222;
+    font-size: 1.125em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    text-align: left;
+  }
+  .about .two-thirds .left p {
+    font-family: RobotoSlab;
+    color: #777777;
+    font-size: 0.875em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 400;
+    text-align: left;
+  }
+  .about-pic-two {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/about-pic-two.png");
+  }
+  .about-pic-three {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/about-pic-three.png");
+  }
+  .about-pic-four {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/about-pic-four.png");
+  }
+  .about-pic-five {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/about-pic-five.png");
+  }
+  .about .line {
+    border-right: 3px solid #f1f1f1;
+    height: 94px;
+    display: none;
+  }
+  .about h3 {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 1.125em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    line-height: 1.5em;
+  }
+  .about {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width: 768) {
+  .team {
+    padding: 10vh 0;
+    background-color: #f9f9f9;
+  }
+  .team .row {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .team .team-pic-one {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/team-pic-one.jpeg");
+    display: block;
+  }
+  .team .team-pic-two {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/team-pic-two.jpeg");
+  }
+  .team .team-pic-three {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../graphic/team-pic-three.jpeg");
+  }
+  .team h5 {
+    font-family: Montserrat;
+    color: #222222;
+    font-size: 1em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    text-align: center;
+  }
+  .team p {
+    font-family: RobotoSlab;
+    color: #777777;
+    font-size: 0.875em;
+    /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 400;
+    text-align: center;
+  }
+  .team-about {
+    display: block;
+    margin: 0 auto;
+  }
+  .team .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #222222;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    width: 41px;
+    height: 41px;
+    margin-top: 0;
+  }
+  .team .social {
+    padding-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team i {
+    font-size: 20px;
+    color: black;
+  }
+  .team .box:hover {
+    background-color: #222222;
+    cursor: pointer;
+  }
+  .team .box:hover i {
+    color: white;
+  }
+  .team .small-padding {
+    padding-bottom: 3vh;
+  }
+  .team .small-padding-up {
+    padding-top: 3vh;
+  }
+  .third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
