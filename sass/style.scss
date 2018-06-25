@@ -731,6 +731,10 @@ line-height:1.5em;
 } 
 
 @media only screen and (max-width: 480px){
+.menu {
+	display: none;
+}
+
 	.team {
 	padding: 0;
 	background-color:  #f9f9f9;
@@ -919,3 +923,4 @@ line-height:1.5em;
 }
 
 }
+

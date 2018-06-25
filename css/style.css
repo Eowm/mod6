@@ -737,6 +737,9 @@ button {
 }
 
 @media only screen and (max-width: 480px) {
+  .menu {
+    display: none;
+  }
   .team {
     padding: 0;
     background-color: #f9f9f9;
