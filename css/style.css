@@ -95,7 +95,6 @@ button {
 }
 
 .services {
-  width: 100vw;
   text-align: center;
   padding-bottom: 10vh;
 }
@@ -834,14 +833,11 @@ button {
   }
   .about-pic-one {
     width: 40vw;
-    min-height: 150px;
     height: 40vw;
-    min-width: 150px;
     background-size: cover;
     background-position: center;
     text-align: center;
     background-image: url("../graphic/about-pic-one.png");
-    padding: 0;
   }
   .about .left h6 {
     font-family: Montserrat;
@@ -862,35 +858,26 @@ button {
   .about-pic-two {
     width: 40vw;
     height: 40vw;
-     min-height: 150px;
-    min-width: 150px;
     background-size: cover;
     background-position: center;
     text-align: center;
     background-image: url("../graphic/about-pic-two.png");
-    padding: 0;
   }
   .about-pic-three {
     width: 40vw;
     height: 40vw;
-     min-height: 150px;
-    min-width: 150px;
     background-size: cover;
     background-position: center;
     text-align: center;
     background-image: url("../graphic/about-pic-three.png");
-    padding: 0;
   }
   .about-pic-four {
     width: 40vw;
     height: 40vw;
-     min-height: 150px;
-    min-width: 150px;
     background-size: cover;
     background-position: center;
     text-align: center;
     background-image: url("../graphic/about-pic-four.png");
-    padding: 0;
   }
   .about-pic-five {
     width: 190px;
